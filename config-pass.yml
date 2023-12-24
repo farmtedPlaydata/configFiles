@@ -19,4 +19,3 @@ spring:
       port: 6379
       password: ENC(lEr5uP4ca3JFUBAxu3dNbQ==)
 spring.jpa.properties.hibernate.physical_naming_strategy: com.farmted.passservice.config.CustomCamelCaseToSnakeAndLowerCaseStrategy
-jwt-secret-key: ENC(GMR63l4U7dDfv6XgdGy4R25RcFQeac6txhuR4Cl+JHC/6uN0GOIzIRuJ+un2U7uSdK81nuYbTVT/0/wfWqaLAuj0yEdo4pKtQqZgCvmCgUk=)
