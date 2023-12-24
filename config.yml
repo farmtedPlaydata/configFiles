@@ -5,7 +5,8 @@ spring:
   application:
     name: ${userName}
   datasource:
-    url: ENC(A0Q6Y6M0oSPLBUJYKn+Zq/T99eYSa15YDAF2rHp0rIzu4k1BTGvnAXbiBmMbQ1LU3RRUcWkVOakm5bqbcO0tO24IGnHtztpPpn/fGg2Q7+P/YDMW2kPInkr2Z8/GtltM)${domain}
+    # url: ENC(A0Q6Y6M0oSPLBUJYKn+Zq/T99eYSa15YDAF2rHp0rIzu4k1BTGvnAXbiBmMbQ1LU3RRUcWkVOakm5bqbcO0tO24IGnHtztpPpn/fGg2Q7+P/YDMW2kPInkr2Z8/GtltM)${domain}
+    url: ${domain}
     username: ENC(Wt6Ag+sWOVVT/vbTtFuctg==)
     password: ENC(O4LCGF7HLo4/rw1FGSJ9f9XkhrH/HRWl)
     driver-class-name: ENC(KbvVuKUI0/ongypma9NeAHH2HvqSBgtztbaTAM+2ZM9xAZvMwsDxKw==)
