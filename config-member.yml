@@ -2,5 +2,5 @@ spring:
   application:
     name: member-service
   datasource:
-    url: ENC(6LDChfQBvB/woUWwcOV4LS5XLQZ/ZB4VeVmO7HpE9f8ECKfrlibwyPVWlCm/sw2w/IV0Cwl7YoUkBjA5asWLb+Jdfi2c/UwOLVquPbpU3KeSZSWo3lZvkiE3OYyZasSN)
+    url: ENC(s8WpT240ynKaPaGFl3d6EjaNl5CqZ5/9oZTYcn3jh4/kVl+tg/AoJnqONruoZNzlLIlTRBusTy7LL1osvwOIoA7i5UQUGliDTVbFmrITY9MV6n8iabH3CsQ8XlrnKlHx)
 spring.jpa.properties.hibernate.physical_naming_strategy: com.farmted.memberservice.config.CustomCamelCaseToSnakeAndLowerCaseStrategy
