@@ -1,0 +1,3 @@
+userName: board-service
+namingRoute: com.farmted.boardservice.config.CustomCamelCaseToSnakeAndLowerCaseStrategy
+domain: board
