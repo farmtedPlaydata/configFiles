@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: comment-service
+  datasource:
+    url: ENC(TBrSKwv9FwosYRU7bVOzndzp2RwmIG9oat+3IELBtKQbLo2QdOAiat7uJpYCtTwsQj+eQMmOAXHBwWIfbZetZ4m/JYsqoGYWjciDuruLqayaSvmFmLYzsk610LEL3OB3Enw8cuWIWaM=)
