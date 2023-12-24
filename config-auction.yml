@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: auction-service
+  datasource:
+    url: ENC(KqR3X2+J7rsx60K0EsC1PThMTm7zIVul6f0kKV1UmFrAZbrA6IWnN25C2+m7M34tfHQw4/cNUhycsHzWr3EYbv43ezlMcsoNHyN2HcVqH4VvhoECfPF8qv7+UVKSR0nw/YG6LkKe+tc=)
+spring.jpa.properties.hibernate.physical_naming_strategy: com.farmted.auctionservice.config.CustomCamelCaseToSnakeAndLowerCaseStrategy

@@ -3,7 +3,6 @@ server:
   port: 0
 spring:
   datasource:
-    # url: ENC(A0Q6Y6M0oSPLBUJYKn+Zq/T99eYSa15YDAF2rHp0rIzu4k1BTGvnAXbiBmMbQ1LU3RRUcWkVOakm5bqbcO0tO24IGnHtztpPpn/fGg2Q7+P/YDMW2kPInkr2Z8/GtltM)${domainName}
     username: ENC(Wt6Ag+sWOVVT/vbTtFuctg==)
     password: ENC(O4LCGF7HLo4/rw1FGSJ9f9XkhrH/HRWl)
     driver-class-name: ENC(KbvVuKUI0/ongypma9NeAHH2HvqSBgtztbaTAM+2ZM9xAZvMwsDxKw==)
@@ -11,5 +10,3 @@ spring:
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
-# ${userName}과 ${dbUrl}은 개별 MS에서 사용하는 정보
-# 드라이버는 암호화하니 아예 먹히지 않아서 그냥 씀
