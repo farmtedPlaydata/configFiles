@@ -2,4 +2,4 @@ spring:
   application:
     name: product-service
   datasource:
-    url: ENC(Qc3UO8jC7l2t8vOdTYSYbqC5aNM7ju+QLY5NxKZtUWMrY5cUgpjImHxTrfe0SNFqiLcg/BnOlixLhbQuemLKsn/Hll2cEg37TbtH7ULfFU9y8fsrw1hpD1rQuqhE/MbrMuMyhCksfGA=)
+    url: ENC(Vt6LVtSApI5e9FdZYSE49le+WELPV+3d5pasWd5B9RMBvAWmfiPg1e/kfFxpRbgl87haWz1T7KwQrSXssZegCmnFuQtjpxBulmLNKZXWx8Smt3LPU3p43gCWNybuTp+I615U+qw9FJY=)
