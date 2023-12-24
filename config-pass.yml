@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: pass-service
+  datasource:
+    url: ENC(5CGzTxNUBGcxIL/f8DXvzwq+1xZOiF4Z+2w3+xpyfmYVTbBFdAIDllFk3E2naVZqjISTn1qtuhIXzMfSe5OTv5Ks2b0858Et6pNi0K+m4xOt7cX6V5NuNiQ/uMitfZa9)
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: ENC(Y2YA1oVakLk+49bNE6D9B5jzLx3y8AG1rGiy72i/wDS9hjclcy2u8XofY+WJJArKCfarjqXR6iODcm8F7YllTwnJmfqYZ+lDAwl3IO3s3zA83WW4hPk3gA==)
+            client-secret: ENC(gbv/rmlJT8hnIZdYt1xoo+/nauD5O50gEXE+V9O6qXAEr02vF4yoPOQRN86mffMH)
+            scope:
+              - email
+              - profile
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+      password: ENC(lEr5uP4ca3JFUBAxu3dNbQ==)
+spring.jpa.properties.hibernate.physical_naming_strategy: com.farmted.passservice.config.CustomCamelCaseToSnakeAndLowerCaseStrategy
+jwt-secret-key: ENC(GMR63l4U7dDfv6XgdGy4R25RcFQeac6txhuR4Cl+JHC/6uN0GOIzIRuJ+un2U7uSdK81nuYbTVT/0/wfWqaLAuj0yEdo4pKtQqZgCvmCgUk=)
