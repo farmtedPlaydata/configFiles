@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: member-service
+  datasource:
+    url: ENC(6LDChfQBvB/woUWwcOV4LS5XLQZ/ZB4VeVmO7HpE9f8ECKfrlibwyPVWlCm/sw2w/IV0Cwl7YoUkBjA5asWLb+Jdfi2c/UwOLVquPbpU3KeSZSWo3lZvkiE3OYyZasSN)
+spring.jpa.properties.hibernate.physical_naming_strategy: com.farmted.memberservice.config.CustomCamelCaseToSnakeAndLowerCaseStrategy
+spring.jpa.properties.hibernate.dialect: org.hibernate.dialect.MySQLDialect
