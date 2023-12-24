@@ -3,7 +3,7 @@ spring:
   application:
     name: ${userName}
   datasource:
-    url: ENC(0GVW2dA7FwZ/Uzdn9kZfvgwLtsTJzpZfGHB/jrciuXEOH5ME5cV7flFQkip5FyM3XeHuNArg9X336f0c/f8rftvZcCH4gJ3zL/GD48KqaS5EbkY3PBx8udlfoxEkjtDP)
+    url: ${dbUrl}
     username: ENC(Wt6Ag+sWOVVT/vbTtFuctg==)
     password: ENC(O4LCGF7HLo4/rw1FGSJ9f9XkhrH/HRWl)
     driver-class-name: ENC(KbvVuKUI0/ongypma9NeAHH2HvqSBgtztbaTAM+2ZM9xAZvMwsDxKw==)
